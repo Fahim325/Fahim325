@@ -2,7 +2,7 @@
 :root{
     --themecolor: #332FD0;
     --white:#ffff;
-    --green:green;
+    --off_red:#850000;
     --yellow:yellow;
     --p:#F9F9F9;
     --h:#678983;
@@ -185,9 +185,11 @@ html,body{
 /* nav end */
 /* ban start */
 #banner{
-    background: url(../img/background-2426328__340.webp)  no-repeat center/cover ;
+    background: url(../img/yzdsirius8_surreal_tree_with_twisted_branches_reflecting_in_a_p_800b1437-c5be-4efa-9cac-d89e4e15e963.png)  no-repeat center/cover ;
     padding-top: 145px;
     padding-bottom: 300px;
+    align-items: center;
+    text-align: center;
     
     
 }
@@ -215,7 +217,7 @@ html,body{
 }
 .banner_info h5 .green{
     
-    color: var(--green);
+    color: var(--off_red);
     
 }
 .banner_info h5 .yellow{
@@ -224,12 +226,23 @@ html,body{
     
 }
 .banner_info p{
-    color: var(--white);
+    color: var(--p);
+}
+.banner_btn .about_me {
+
+  padding: 14px 26px;
+  border-radius: 30px;
+  font-size: 14px;
+  color: var(--themecolor);
+  font-family: var(--family);
+  border: 2px solid var(--themecolor);
+  background: transparent;
 }
 .fahim{
   margin-left: 80px;
   border-radius: 50%;
 }
+
 
 /* .picture{
     height: 500px;
@@ -287,6 +300,17 @@ html,body{
 
 
 /* about end */
+/* Contact start */
+#contact{
+  background: url(../img/A_black_image.jpg)  no-repeat center/cover;
+  
+}
+
+.Contact .text_0{
+  text-align: center;
+}
+
+/* Contact end */
 
 
 
